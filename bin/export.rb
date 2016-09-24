@@ -22,7 +22,6 @@ module Export
   end
 
   private
-
   def Export.to_csv(data)
     rank_index = 1
     CSV.open(@destination, 'wb') do |csv|
