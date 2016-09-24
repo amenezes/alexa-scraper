@@ -1,6 +1,6 @@
 ## alexa-scraper
-<a href="https://codeclimate.com/github/amenezes/alexa-scraper"><img src="https://codeclimate.com/github/amenezes/alexa-scraper/badges/gpa.svg" /></a>  
-[![Build Status](https://travis-ci.org/amenezes/alexa-scraper.svg?branch=master)](https://travis-ci.org/amenezes/alexa-scraper)  
+[![Build Status](https://travis-ci.org/amenezes/alexa-scraper.svg?branch=master)](https://travis-ci.org/amenezes/alexa-scraper)
+<a href="https://codeclimate.com/github/amenezes/alexa-scraper"><img src="https://codeclimate.com/github/amenezes/alexa-scraper/badges/gpa.svg" /></a>
 [![Dependency Status](https://gemnasium.com/badges/github.com/amenezes/alexa-scraper.svg)](https://gemnasium.com/github.com/amenezes/alexa-scraper)
 
 ### Table of contents
