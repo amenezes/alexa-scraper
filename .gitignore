@@ -1,0 +1,6 @@
+Gemfile.lock
+.git
+output/*
+config/c*.yaml
+db
+test

@@ -1,0 +1,45 @@
+---
+#
+# Filter option to get top sites.
+# Options available are:
+#   - global
+#   - a country [US, ]
+#   - a continent
+#   - more info: <http://www.alexa.com/topsites/countries>
+#
+topsites_filter: global
+#
+# Base URL of top global sites identify by Alexa(C) an Amazon.com Company.
+#
+url: "http://www.alexa.com/topsites/global;"
+#
+# Base expression to sanitize top sites list.
+#
+parser_expression: "//div[@class='desc-container']/p/a"
+#
+# Default value of how many sites the script will analyze to generate a
+# list of topsites.
+#
+# NOTICE: the value must correspond the page rank in alexa, starting in 0.
+# For example:
+#   - http://www.alexa.com/topsites/global;0/ # top 25 sites
+#   - http://www.alexa.com/topsites/global;1/ # top 50 sites
+#   - ...                                     # top .. sites
+#
+page_rank: 0
+#
+# Force analyze and generate a topsites list.
+# Default value it's: false
+#
+force_download: false
+#
+# Default directory output of topsites list.
+#
+output_dir: "output"
+#
+# Standard type of file output.
+# Options available are:
+#  - csv (default)
+#  - yaml
+#
+file_type: csv
