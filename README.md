@@ -1,6 +1,6 @@
 ## alexa-scraper
-<a href="https://codeclimate.com/github/amenezes/alexa-scraper"><img src="https://codeclimate.com/github/amenezes/alexa-scraper/badges/gpa.svg" /></a>
-[![Build Status](https://travis-ci.org/amenezes/alexa-scraper.svg?branch=master)](https://travis-ci.org/amenezes/alexa-scraper])
+<a href="https://codeclimate.com/github/amenezes/alexa-scraper"><img src="https://codeclimate.com/github/amenezes/alexa-scraper/badges/gpa.svg" /></a>  
+[![Build Status](https://travis-ci.org/amenezes/alexa-scraper.svg?branch=master)](https://travis-ci.org/amenezes/alexa-scraper)  
 [![Dependency Status](https://gemnasium.com/badges/github.com/amenezes/alexa-scraper.svg)](https://gemnasium.com/github.com/amenezes/alexa-scraper)
 
 ### Table of contents
@@ -34,7 +34,8 @@ optional arguments:
 ```
 
 #### Standard output sample:  
-```
+```bash
+$ ruby a-scraper.rb
 [>] Downloading the list of top sites <global>...
 [>] The list of top sites was generated on: <output> directory.
 
@@ -49,6 +50,7 @@ List of dependencies:
 ```bash
 # First install bundler.  
 $ gem install bundler
+
 # After just run bundler.
 $ bundle install
 ```
