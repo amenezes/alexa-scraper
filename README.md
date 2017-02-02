@@ -38,7 +38,6 @@ optional arguments:
 $ ruby a-scraper.rb
 [>] Downloading the list of top sites <global>...
 [>] The list of top sites was generated on: <output> directory.
-
 ```
 #### Dependencies  
 
@@ -48,10 +47,7 @@ List of dependencies:
 #### Installation
 
 ```bash
-# First install bundler.  
 $ gem install bundler
-
-# After just run bundler.
 $ bundle install
 ```
 

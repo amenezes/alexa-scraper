@@ -10,9 +10,9 @@ module Export
     case format
     when 'csv' then Export.to_csv(data)
     when 'yaml' then Export.to_yaml(data)
-      else
-        puts "[!] There's no valid file_type options in <params.yaml>"
-        exit
+    else
+      puts "[!] There's no valid file_type options in <params.yaml>"
+      exit
     end
   end
 
