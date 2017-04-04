@@ -23,7 +23,7 @@ class Scraper
     country = @params_config['topsites_filter']
     countries = YAML.load_file('config/countries.yaml')
     if countries.has_value?country
-      return "http://www.alexa.com/topsites/countries;%s/#{country}"
+      return "http://www.alexa.com/topsites/countries/#{country}"
     else
       return "#{@params_config['url']}%s/"
     end

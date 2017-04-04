@@ -6,7 +6,7 @@ module Configurations
     return 'config/params.yaml'
   end
 
-  def self.CONTRIES
+  def self.COUNTRIES
     return 'config/countries.yaml'
   end
 

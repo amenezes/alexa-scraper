@@ -11,7 +11,7 @@ topsites_filter: global
 #
 # Base URL of top global sites identify by Alexa(C) an Amazon.com Company.
 #
-url: "http://www.alexa.com/topsites/global;"
+url: "http://www.alexa.com/topsites/global"
 #
 # Base expression to sanitize top sites list.
 #

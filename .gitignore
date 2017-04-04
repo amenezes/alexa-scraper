@@ -1,5 +1,2 @@
 .git
 output/*
-config/c*.yaml
-db
-test
